@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    align-content: center
+}
+/*------------------------Universal----------------------------*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.di_flex{
+    display: flex;
+    justify-content: space-between;
+    margin: auto
+}
+.description{
+    max-width: 285px
+}
+/*--------------------------Header---------------------------*/
+header{
+    padding: 22px 0
+}
+header .container{
+    padding: 0 20px 0 32px
+}
+header nav ul{
+    display: flex
+}
+header nav ul li a{
+    font-size: 15px;
+    line-height: 24px;
+    color: #1B1A1A;
+    margin-left: 32px
+}
+header nav ul li:last-of-type{
+    padding: 11px 20px;
+    background: #1B1A1A;
+    border-radius: 14px;
+    margin-left: 31px
+}
+header nav ul li:last-of-type a{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin: auto;
+    color: #FFFFFF
+}
+/*--------------------------Wishbone+Partners---------------------------*/
+.Wish_main{
+    padding: 137px 0 128px;
+    background-color: #ECE7E4;
+    position: relative
+}
+.wish_info{
+    text-align: left
+}
+.wish_bg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/wishBG.jpg");
+    background-size: cover
+}
+.text_bold{
+    max-width: 417px;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1A1A;
+    text-align: left;
+    margin-bottom: 18px
+}
+.wish_text{
+    max-width: 509px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    text-align: left;
+    margin-bottom: 41px
+}
+.wish_info h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.wish_info a{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-align: left;
+    margin-left: 25px
+}
+/*--------------------------Our firm---------------------------*/
+.our_firm{
+    padding: 100px 0
+}
+.firm_main{
+    max-width: 768px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: auto
+}
+.firm_main h4{
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B
+}
+.firm_info{
+    max-width: 493px
+}
+.firm_text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    text-align: left;
+    margin-bottom: 10px
+}
+.our_team{
+    width: 280px;
+    padding: 8px 0;
+    display: flex
+}
+.user_name{
+    font-size: 17px;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 20px;
+    color: #1B1A1A
+}
+.work{
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+    color: #645C55
+}
+/*--------------------------Reading House---------------------------*/
+.Reading_House{
+    min-height: 600px;
+    background-image: url("../images/reading_houseBG.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px
+}
+.description h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #403E3B
+}
+.description p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #645C55
+}
+/*--------------------------our process---------------------------*/
+.our_process{
+    padding: 100px 0
+}
+.our_process h3{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    margin-bottom: 13px
+}
+.our_process h1{
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+    margin-bottom: 47px
+}
+.our_process .di_flex{
+    justify-content: space-around;
+}
+
+.our_article{
+    max-width: 378px;
+}
+.our_article img{
+    max-width: 117px;
+    margin: auto
+}
+.our_article h2{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+    margin-top: 15px
+}
+.our_article p{
+    max-width: 285px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+    margin: auto;
+    margin-top: 10px
+}
+/*--------------------------The marble staircase---------------------------*/
+.marble{
+    min-height: 600px;
+    background-image: url("../images/marbleBG.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px
+}
+/*--------------------------Clients---------------------------*/
+.clients{
+    background-color: #403E3B;
+    padding: 60px 0
+}
+.clients_main{
+    max-width: 1168px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between
+}
+.clients_text{
+    align-items: center;
+}
+.clients_text h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ECE7E4
+}
+.clients_text h4{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+    color: #FFFFFF
+}
+.clients_text p{
+    max-width: 451px;
+    margin-top: 14px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4
+}
+.clients_logo{
+    height: 290px;
+    max-width: 432px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-right: 144px;
+    padding: 40px
+}
+.logo_holder{
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+/*--------------------------The swirling staircase---------------------------*/
+.swirling{
+    min-height: 600px;
+    background-image: url("../images/swirlingBG.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px
+}
+/*--------------------------Featured projects---------------------------*/
+.projects{
+    padding: 120px 0 100px 0
+}
+.projects .container{
+    max-width: 1168px
+}
+.projects p{
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    text-align: left;
+    margin-bottom: 44px
+}
+.projects article{
+    max-width: 375px;
+    position: relative;
+    overflow: hidden
+}
+.projects article img{
+    width: 100%
+}
+.projects h3{
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    text-align: left;
+    margin-bottom: 15px
+}
+.projects .describe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    bottom: -100%;
+    transition: 0.5s
+}
+.projects .describe h4{
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    text-align: left;
+    width: 100%
+}
+.projects .describe h4 span{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #645C55
+}
+.projects .describe a{
+    padding: 11px 20px;
+    background: #1B1A1A;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF
+}
+.projects article:hover .describe{
+    bottom: 0
+}
+.img_holder{
+    margin-bottom: 53px
+}
+.projects_view{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1B1A1A
+}
+/*--------------------------Our Team---------------------------*/
+.team{
+    padding: 100px 0
+}
+.team .container{
+    max-width: 1168px;
+    align-items: start;
+    justify-content: left
+}
+.team_text{
+    max-width: 358px;
+    text-align: left;
+    margin-right: 36px
+}
+.team h1{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+    margin-bottom: 14px;
+    color: #403E3B
+}
+.text_p{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 41px;
+    color: #645C55
+}
+.see{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 25px;
+    color: #1B1A1A
+}
+.team_holder{
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.team_holder .our_team{
+    margin-bottom: 36px
+}
+/*--------------------------Get in touch---------------------------*/
+.get_touch{
+    background-color: #CEC4BC;
+    padding: 100px 0
+}
+.get_touch .container{
+    max-width: 1168px
+}
+.touch_info{
+    max-width: 569px
+}
+.touch_info h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #645C55
+}
+.touch_info p{
+    font-size: 40px;
+    line-height: 42px;
+    text-align: left;
+    color: #1B1A1A
+}
+.touch{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-right: 20px;
+    color: #1B1A1A
+}
+/*--------------------------Footer---------------------------*/
+footer{
+    padding: 60px 0
+}
+footer .container{
+    max-width: 1168px;
+    align-items: end
+}
+.footer_info{
+    text-align: left
+}
+.footer_info p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 20px;
+    color: #645C55
+}
+.social_logo{
+    width: 112px;
+    display: flex;
+    justify-content: space-between
+}
+
+
+

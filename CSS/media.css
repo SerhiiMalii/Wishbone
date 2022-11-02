@@ -1,0 +1,118 @@
+@media (max-width: 1024px) {
+    .container{
+        max-width: none
+    }
+    .wish_text{
+        max-width: 450px
+    }
+    .wish_info{
+        padding-left: 15px
+    }
+}
+/*-----------------------820PX------------------------------*/
+@media (max-width: 865px){
+    .container{
+        max-width: none;
+        padding: 0 10px
+    }
+    header nav ul li a{
+        font-size: 14px;
+        line-height: 24px;
+        color: #1B1A1A;
+        margin-left: 15px
+    }
+    header nav ul li:last-of-type a{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        margin: auto;
+        color: #FFFFFF
+    }
+    header nav ul li:last-of-type{
+        padding: 9px 15px;
+        background: #1B1A1A;
+        border-radius: 14px;
+        margin-left: 15px
+    }
+    .text_bold{
+        max-width: 360px;
+        font-size: 58px
+    }
+    .wish_text{
+        max-width: 360px
+    }
+    .our_firm{
+        padding: 20px 10px
+    }
+    .Reeding_House{
+        min-height: 300px;
+        padding-right: 20px;
+    }
+}
+/*-----------------------------390PX----------------------------*/
+@media (max-width: 428px) {
+    .container{
+        max-width: 320px;
+        justify-content: center;
+    }
+    header nav{
+        display: none
+    }
+    .wish_bg{
+        position: relative;
+        min-height: 300px;
+        width: 100%;
+    }
+    .text_bold{
+        max-width: 310px;
+        font-size: 47px
+    }
+    .wish_text{
+        max-width: 310px;
+    }
+    .wish_info{
+        padding: 0 5px
+    }
+    .Wish_main{
+       padding: 0;
+    }
+    .firm_main{
+        display: block;
+        padding: 0 5px;
+    }
+    .firm_info{
+        max-width: 320px;
+        margin: auto
+    }
+    .our_firm{
+        padding: 20px 0
+    }
+    .firm_main h4{
+        margin-bottom: 10px
+    }
+    .firm_text{
+        max-width: 310px
+    }
+    .our_team{
+        margin: auto;
+    }
+    .Reading_House{
+        min-height: 300px;
+        justify-content: center;
+        background-size: cover;
+        padding: 0
+    }
+    .our_process{
+        padding: 30px 0
+    }
+    .our_process h1{
+        font-size: 25px
+    }
+    .marble{
+        min-height: 300px;
+        justify-content: center;
+        background-size: cover;
+        padding: 0
+    }
+
+}
