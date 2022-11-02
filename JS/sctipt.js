@@ -12,6 +12,10 @@ $(document).ready(function() {
                 items: 1,
                 autoplay: true
             },
+            768:{
+                items: 2,
+                autoplay: true
+            },
             830: {
                 items: 2,
                 autoplay: true

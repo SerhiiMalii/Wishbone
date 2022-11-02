@@ -1,118 +1,179 @@
 @media (max-width: 1024px) {
     .container{
-        max-width: none
+        max-width: none;
+        padding: 0 10px;
     }
-    .wish_text{
-        max-width: 450px
-    }
-    .wish_info{
-        padding-left: 15px
+    .clients_main{
+        max-width: none;
+        padding: 0 10px;
     }
 }
-/*-----------------------820PX------------------------------*/
-@media (max-width: 865px){
-    .container{
+@media (max-width: 865px) {
+    header nav ul li a{
+        font-size: 13px;
+        margin-left: 20px
+    }
+    header nav ul li:last-of-type{
+        padding: 11px 20px;
+        background: #1B1A1A;
+        border-radius: 14px;
+        margin-left: 20px
+    }
+    header nav ul li:last-of-type a{
+        font-size: 14px
+    }
+    .wish_text{
+        max-width: 400px
+    }
+    .our_firm{
+        padding: 20px 0
+    }
+    .Reading_House{
+        min-height: 400px;
+        padding-right: 0
+    }
+    .our_process{
+        padding: 20px 0
+    }
+    .marble{
+        min-height: 400px;
+        padding-right: 0
+    }
+    .clients{
+        padding: 20px 0
+    }
+    .clients_logo{
+        margin-right: 0
+    }
+    .swirling{
+        min-height: 400px;
+        padding-left: 10px
+    }
+    .projects{
+        padding: 20px 0
+    }
+    .team{
+        padding: 20px 0
+    }
+    .team .container{
+        display: inline-block
+    }
+}
+@media (max-width: 820px) {
+    .text_bold{
+        max-width: 370px;
+        font-size: 55px
+    }
+    .wish_text {
+        max-width: 370px
+    }
+    .firm_main {
         max-width: none;
         padding: 0 10px
     }
-    header nav ul li a{
-        font-size: 14px;
-        line-height: 24px;
-        color: #1B1A1A;
-        margin-left: 15px
+    .Reading_House{
+        justify-content: start;
+        padding-left: 10px
     }
-    header nav ul li:last-of-type a{
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.4px;
-        margin: auto;
-        color: #FFFFFF
-    }
-    header nav ul li:last-of-type{
-        padding: 9px 15px;
-        background: #1B1A1A;
-        border-radius: 14px;
-        margin-left: 15px
-    }
-    .text_bold{
-        max-width: 360px;
-        font-size: 58px
-    }
-    .wish_text{
-        max-width: 360px
-    }
-    .our_firm{
-        padding: 20px 10px
-    }
-    .Reeding_House{
-        min-height: 300px;
-        padding-right: 20px;
+    .marble{
+        justify-content: start;
+        padding-left: 10px
     }
 }
-/*-----------------------------390PX----------------------------*/
 @media (max-width: 428px) {
-    .container{
-        max-width: 320px;
+    header .container{
         justify-content: center;
     }
-    header nav{
+    nav{
         display: none
     }
     .wish_bg{
         position: relative;
         min-height: 300px;
-        width: 100%;
-    }
-    .text_bold{
-        max-width: 310px;
-        font-size: 47px
-    }
-    .wish_text{
-        max-width: 310px;
-    }
-    .wish_info{
-        padding: 0 5px
+        width: 100%
     }
     .Wish_main{
-       padding: 0;
+        padding: 0
+    }
+   .wish_info{
+       display: inline-block;
+   }
+    .wish_info h3{
+        margin: 20px 0
     }
     .firm_main{
-        display: block;
-        padding: 0 5px;
-    }
-    .firm_info{
-        max-width: 320px;
-        margin: auto
-    }
-    .our_firm{
-        padding: 20px 0
-    }
-    .firm_main h4{
-        margin-bottom: 10px
-    }
-    .firm_text{
-        max-width: 310px
+        display: inline-block
     }
     .our_team{
-        margin: auto;
+        max-width: 250px
     }
     .Reading_House{
-        min-height: 300px;
-        justify-content: center;
-        background-size: cover;
-        padding: 0
+        align-items: end
     }
-    .our_process{
-        padding: 30px 0
+    .description p{
+        margin-bottom: 20px
     }
     .our_process h1{
-        font-size: 25px
+        font-size: 30px
     }
-    .marble{
-        min-height: 300px;
-        justify-content: center;
-        background-size: cover;
-        padding: 0
+    .clients_main{
+        display: inline-block
     }
-
+    .get_touch{
+        padding: 20px 0
+    }
+    .get_touch .container{
+        display: inline-block
+    }
+    .touch_info{
+        max-width: none
+    }
+    .touch_info p{
+        font-size: 28px;
+        margin-bottom: 20px
+    }
+    footer{
+        padding: 35px 0
+    }
+    footer .container{
+        display: inline-block
+    }
+    .footer_info p{
+        margin-bottom: 20px
+    }
+    .social_logo{
+        display: inline-block
+    }
+    .social_logo img{
+        margin-left: 10px
+    }
+    .team_holder .our_team{
+        margin-bottom: 10px
+    }
+    .team_holder{
+        display: inline-block
+    }
+    .team_text{
+        display: inline-block;
+        margin: auto
+    }
+    .projects .describe a{
+        font-size: 13px;
+        padding: 2px 4px;
+        border-radius: 6px;
+    }
+    .projects .describe h4 span{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .projects .describe h4{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .projects .describe{
+        padding: 2px;
+    }
+    .describe{
+        display: inline-block;
+    }
 }
