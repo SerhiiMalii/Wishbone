@@ -5,7 +5,7 @@ $(document).ready(function() {
         nav: true,
         navText: ['', ' '],
         autoplayTimeout: 2500,
-        dots: true,
+        dots: false,
 
         responsive: {
             0: {
@@ -27,3 +27,19 @@ $(document).ready(function() {
         }
     })
 });
+$( function() {
+    $( "#dialog" ).dialog({
+        autoOpen: false,
+        show: {
+            duration: 300
+        },
+        hide: {
+            effect: "blind",
+            duration: 300
+        }
+    });
+
+    $( "#opener" ).on( "click", function() {
+        $( "#dialog" ).dialog( "open" );
+    });
+} );
